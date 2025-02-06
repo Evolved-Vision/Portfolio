@@ -46,6 +46,13 @@ body {
     margin-bottom: 20px;
 }
 
+.certification {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  text-align: center;
+}
+
+
 .certification-list {
   display: grid;
   place-items: center;
