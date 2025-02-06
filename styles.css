@@ -63,6 +63,7 @@ body {
 
 .certification-item h3 {
   font-size: 1.5em;
+  place-items: center;
   color: #007bff;
 }
 
