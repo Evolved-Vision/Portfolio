@@ -48,6 +48,7 @@ body {
 
 .certification-list {
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Equal-width columns */
   gap: 20px;
 }
