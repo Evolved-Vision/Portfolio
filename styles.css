@@ -46,6 +46,14 @@ body {
     margin-bottom: 20px;
 }
 
+.portfolio-image {
+  max-width: 100%;  /* Ensures image doesn't exceed container */
+  min-width: 200px; /* Sets a minimum width */
+  max-height: 500px; /* Limits the height */
+  min-height: 150px; /* Ensures a minimum height */
+  object-fit: grid; /* Prevents distortion */
+}
+
 .project-item {
     background-color: #f4f4f4;
     padding: 20px;
@@ -62,13 +70,6 @@ body {
 .project-item p {
     font-size: 1rem;
     color: #666;
-}
-.portfolio-image {
-  max-width: 100%;  /* Ensures image doesn't exceed container */
-  min-width: 200px; /* Sets a minimum width */
-  max-height: 500px; /* Limits the height */
-  min-height: 150px; /* Ensures a minimum height */
-  object-fit: cover; /* Prevents distortion */
 }
 
 
