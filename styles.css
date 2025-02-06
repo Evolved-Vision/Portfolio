@@ -47,7 +47,7 @@ body {
 }
 
 .portfolio-image {
-  max-width: 100%;  /* Ensures image doesn't exceed container */
+  max-width: 50%;  /* Ensures image doesn't exceed container */
   min-width: 200px; /* Sets a minimum width */
   max-height: 500px; /* Limits the height */
   min-height: 150px; /* Ensures a minimum height */
